@@ -14,7 +14,7 @@ def download():
   
   
   while True:
-    t = threading.Thread(target=get_request)
+    t = threading.Thread(target=get_requests)
     t.start()
     
     
