@@ -21,4 +21,4 @@ jobs:
       
       - name: Run Python File
         run: |
-          python run main.py
+          python run ../main.py
